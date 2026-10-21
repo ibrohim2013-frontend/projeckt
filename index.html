@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="./images/Group 16015.png" alt="Аудитерия">
+    </div>
+    <nav class="header-nav">
+      <a href="#">Как купить</a>
+      <a href="#">F.A.Q</a>
+      <a href="#">Контакты</a>
+    </nav>
+    <div class="header-right">
+      <div class="search-box">
+        <img src="./images/Icon (8).png" alt="Search">
+        <input type="text" placeholder="Поиск...">
+      </div>
+
+      <input type="checkbox" id="reg-toggle" class="modal-toggle">
+      <label for="reg-toggle" class="btn-outline">Ro'yxatdan o'tish</label>
+      <div class="modal">
+        <div class="modal-content">
+          <label for="reg-toggle" class="close-btn"></label>
+          <h2>Ro'yxatdan o'tish</h2>
+          <form>
+            <input type="text" placeholder="Ismingiz" required>
+            <input type="text" placeholder="Familiyangiz" required>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Email parolingiz" required>
+            <button type="submit">Ro'yxatdan o'tish</button>
+          </form>
+        </div>
+      </div>
+
+      <input type="checkbox" id="login-toggle" class="modal-toggle">
+      <label for="login-toggle" class="btn-filled">Kirish</label>
+      <div class="modal">
+        <div class="modal-content">
+          <label for="login-toggle" class="close-btn"></label>
+          <h2>Kirish</h2>
+          <form>
+            <input type="email" placeholder="Emailingiz" required>
+            <input type="password" placeholder="Email parolingiz" required>
+            <button type="submit">Kirish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="owl-carousel owl-theme">
+      <div class="item hero-slide slide-1">
+        <div class="container">
+          <h1>Книги, которые вам хочется слушать</h1>
+          <p>Лучшая подборка аудиокниг по психологии и саморазвитию за все годы издательства.</p>
+        </div>
+      </div>
+      <div class="item hero-slide slide-2">
+        <div class="container">
+          <h1>Увлекательные историй в формате аудио</h1>
+          <p>Слушайте любимые произведения в любом месте и в любое время.</p>
+        </div>
+      </div>
+      <div class="item hero-slide slide-3">
+        <div class="container">
+          <h1>Развивайтесь каждый день вместе с нами</h1>
+          <p>Получите доступ к эксклюзивной библиотеке бестселлеров со всего мира.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>Новинки</h2>
+
+      <div class="btn-group">
+        <input class="theme-switcher" type="checkbox">
+        <button class="more-btn">Смотреть все</button>
+      </div>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <img src="./images/png (20).png" alt="">
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Завтра будет вчера</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (21).png" alt="Книга 2">
+        <p class="author">Линкольн Чайлд</p>
+        <p class="title">Низший. Книга шестая</p>
+      </div>
+      <div class="card card-pos">
+        <img src="./images/01 (2).png" alt="">
+        <p class="author">Жена башмачника</p>
+        <p class="title">Тайник</p>
+      </div>
+      <div class="card card-img">
+        <img src="./images/png (22).png" alt="Книга 4">
+        <p class="author">Лира Алая</p>
+        <p class="title">Ночная смена. Крепость живых...</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (23).png" alt="Книга 5">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Агасфер. Старьевщик</p>
+      </div>
+    </div>
+
+    <div class="section-header">
+      <h2>Популярное</h2>
+      <button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <img src="./images/png (24).png" alt="Книга">
+        <div class="heart-icon icon-1"></div>
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Унесенные ветром. Часть вторая</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (25).png" alt="Книга">
+        <div class="heart-icon icon-2"></div>
+        <p class="author">Линкольн Де Милош...</p>
+        <p class="title">Алмазная колесница</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (26).png" alt="Книга">
+        <div class="heart-icon icon-3"></div>
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (27).png" alt="Книга">
+        <p class="author">Лира Алая</p>
+        <p class="title">Не твоя Людмила</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (28).png" alt="Книга">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Тьма императора. Книга вторая</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>Выбор редакции</h2>
+      <button class="more-btn">Смотреть все</button>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <img src="./images/png (29).png" alt="Книга">
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Унесенные ветром. Часть вторая</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (30).png" alt="Книга">
+        <p class="author">Линкольн Чайлд,</p>
+        <p class="title">Алмазная колесница</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (31).png" alt="Книга">
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (32).png" alt="Книга">
+        <p class="author">Лира Алая</p>
+        <p class="title">Не твоя Людмила</p>
+      </div>
+      <div class="card">
+        <img src="./images/png (33).png" alt="Книга">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Тьма императора. Книга вторая</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="tabs">
+      <span class="tab tab-white">Новинки</span>
+      <span class="tab tab-yellow">Популярное</span>
+      <span class="tab tab-yellow">Выбор редакции</span>
+    </div>
+    <div class="cards-grid">
+      <div class="card"><img src="./images/png (29).png" alt="Книга">
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Унесенные ветром. Часть вторая</p>
+      </div>
+      <div class="card"><img src="./images/png (30).png" alt="Книга">
+        <p class="author">Линкольн Чайлд,</p>
+        <p class="title">Алмазная колесница</p>
+      </div>
+      <div class="card"><img src="./images/png (31).png" alt="Книга">
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </div>
+      <div class="card"><img src="./images/png (32).png" alt="Книга">
+        <p class="author">Лира Алая</p>
+        <p class="title">Не твоя Людмила</p>
+      </div>
+      <div class="card"><img src="./images/png (33).png" alt="Книга">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Тьма императора. Книга вторая</p>
+      </div>
+      <div class="card"><img src="./images/png (24).png" alt="Книга">
+        <p class="author">Ульяна Соболева</p>
+        <p class="title">Унесенные ветром. Часть вторая</p>
+      </div>
+      <div class="card"><img src="./images/png (25).png" alt="Книга">
+        <p class="author">Линкольн Де Милош...</p>
+        <p class="title">Алмазная колесница</p>
+      </div>
+      <div class="card"><img src="./images/png (26).png" alt="Книга">
+        <p class="author">Джефф Линдсей</p>
+        <p class="title">«Линкольн» для адвоката</p>
+      </div>
+      <div class="card"><img src="./images/png (27).png" alt="Книга">
+        <p class="author">Лира Алая</p>
+        <p class="title">Не твоя Людмила</p>
+      </div>
+      <div class="card"><img src="./images/png (28).png" alt="Книга">
+        <p class="author">Маргарет Митчелл</p>
+        <p class="title">Тьма императора. Книга вторая</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section partners">
+    <img src="./images/22.png" alt="Netflix">
+    <img src="./images/pngwing 7.png" alt="Amazon">
+    <img src="./images/pngwing.png" alt="Avon">
+    <img src="./images/Group 16015.png" alt="Аудитерия">
+    <img src="./images/8 6.png" alt="Dell">
+  </section>
+
+  <hr class="footer-line">
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="./images/Group 16015.png" alt="Аудитерия">
+      </div>
+      <div class="footer-col">
+        <h3>Жанры</h3>
+        <a href="#">Нонфикшн</a>
+        <a href="#">Психология</a>
+        <a href="#">Бизнес</a>
+        <a href="#">Финансы</a>
+        <a href="#">Все жанры</a>
+      </div>
+      <div class="footer-col">
+        <h3>Категории</h3>
+        <a href="#">Популярное</a>
+        <a href="#">Новинки</a>
+        <a href="#">Выбор редакции</a>
+      </div>
+      <div class="footer-col">
+        <h3>Разделы</h3>
+        <a href="#">Как купить</a>
+        <a href="#">Часто задаваемые вопросы</a>
+        <a href="#">Сотрудничество</a>
+        <a href="#">Контакты</a>
+      </div>
+    </div>
+
+    <hr class="footer-line">
+
+    <div class="footer-bottom">
+      <p>© 2022, «Аудитерия». Все права защищены.</p>
+      <div class="footer-links">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Лицензионное соглашение</a>
+      </div>
+      <div class="footer-payments">
+        <img src="./images/pngwing (1).png" alt="Visa">
+        <img src="./images/pngwing (2).png" alt="Mastercard">
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: true,
+        smartSpeed: 600
+      });
+    });
+  </script>
+
+</body>
+
+</html>
